@@ -1,0 +1,15 @@
+{
+  "name": "novellive",
+  "version": "1.0.0",
+  "description": "Novel Live",
+  "dependencies": {
+    "@line/bot-sdk": "^2.0.0",
+    "apoc": "^2.1.6",
+    "body-parser": "^1.16.1",
+    "cookie-parser": "^1.4.3",
+    "crypto": "~0.0.3",
+    "express": "~4.14.0",
+    "express-session": "^1.15.1",
+    "request": "~2.76.0"
+  }
+}
