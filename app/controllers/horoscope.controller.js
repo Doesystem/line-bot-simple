@@ -1,5 +1,5 @@
 var controller = require('./index.controller.js');
-
+var horoscopeModels = require('../models/horoscope.model.js');
 // create LINE SDK client
 const client = controller.client;
 
@@ -14,13 +14,9 @@ function handleEvent(event) {
 	}
 
 	var msg = event.message.text;
+	console.log(msg);
 
-	var echoText = models.findHoroscope(msg);
-	// create a echoing text message
-	var echo = {
-		type: 'text',
-		text: echoText
-	};
+	var echo = horoscopeModels.findHoroscope(msg);
 
 	// use reply API
 	return client.replyMessage(event.replyToken, echo);

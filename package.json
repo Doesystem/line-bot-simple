@@ -1,7 +1,7 @@
 {
-  "name": "novellive",
-  "version": "1.0.0",
-  "description": "Novel Live",
+  "name": "Bot Keep",
+  "version": "0.0.1",
+  "description": "Bot Keep",
   "dependencies": {
     "@line/bot-sdk": "^2.0.0",
     "apoc": "^2.1.6",
